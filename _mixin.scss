@@ -1,0 +1,12 @@
+@mixin background-imagen($imagen) {
+    background-image: url($imagen);
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
+
+ @mixin imagen-redonda($imagen) {
+    width:250px;
+    height:250px;
+    border-radius:150px;
+}
